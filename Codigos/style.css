@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     vertical-align: baseline;
-    list-style: none;
     border: 0;
 }
 
@@ -33,6 +32,7 @@ body{
 }
 .menu ul{
     margin-left: 120px;
+    list-style: none;
 }
 .menu ul li{
     display: inline-block;
@@ -72,7 +72,7 @@ body{
     right: 243px;
 }
 
-.texto h1{
+.texto h1, #hobbies h1{
 
 font-style: normal;
 font-weight: 700;
@@ -82,7 +82,7 @@ text-align: center;
 
 }
 
-.texto p{
+.texto{
     font-family:'Inria Serif', serif;
     font-style: normal;
     font-weight: 400;
@@ -92,16 +92,67 @@ text-align: center;
     margin-top: 36px;
 }
 
+.texto ol li a, .texto ul li a{
+    text-decoration: underline;
+    color: white;
+}
+
+.texto ol li a:hover, .texto ul li a:hover{
+    color: #cb51f9;
+}
 .corpo{
     width: 1200px;
     margin:auto;
     height: 538px;
 }
 
-.rodape{
+#hobbies{
+    margin-top: 20px;
+}
+
+.flutuar{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+
+.flutuar div{
+    text-align: center;
+
+}
+
+
+footer{
     clear: both;
     text-align: center;
 }
 
+#tabela{
+    font-size: 16px;
+    width: 700px;
+    /*border: 1px solid white;*/
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+}
+
+#titulo-horario{
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+}
+
+tr th,tr td{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+#rodape-curso{
+    position: relative;
+    top: 550px;
+    margin-bottom: 20px;
+}
 
 
